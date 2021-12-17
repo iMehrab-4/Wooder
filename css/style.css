@@ -1,0 +1,263 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+	line-height: 1.4em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/******************************
+ * LUCID codes goes here
+******************************/
+
+.title{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.title h5{
+	font-size: 20px;
+	line-height: 1.2em;
+	font-weight: 600;
+	color: #008ed6;
+	letter-spacing: 1px;
+}
+.title h1{
+	font-size: 55px;
+	line-height: 1.4em;
+	font-weight: 600;
+	color: black;
+	letter-spacing: 1px;
+}
+header{
+	width: 100%;
+	background: url("../images/home.png") center top no-repeat;
+	background-size: cover;
+}
+header .bg-light{
+	background: transparent !important;
+} 
+header .navbar-light .navbar-nav .nav-link{
+	color: #848483;
+	margin: 10px 83px 0px 14px;
+	font-size: 15px;
+	text-align: center;
+}
+.navbar-light .navbar-nav .nav-link{
+	color: #848483;
+	font-size: 15px;
+	font-weight: 600;
+	margin: 0px 40px 0px 0px;
+}
+.banner{
+	width: 99%;
+	padding: 185px 0px;
+}
+.inner-banner h1{
+	font-size: 130px;
+	line-height: 1.2em;
+	font-weight: 700;
+	color: #bea67c;
+	letter-spacing: 1px;
+	margin: 100px 28px 0px 0px;
+	text-align: center;
+	font-family: poppins;
+}
+.inner-banner h5{
+	font-size: 18px;
+	line-height: 1.2em;
+	font-weight: 550;
+	color: #999;
+	letter-spacing: 3px;
+	text-align: center;
+	margin: 50px 35px -80px 0px;
+}
+.inner-button{
+	width: 100%;
+	padding: 40px 0px 0px ;
+	display: inline;
+}
+.inner-button .btn-primary-2{
+	padding: 11px 50px;
+	border-radius: 0px;
+	background: transparent;
+	color: white;
+	border-color: #999;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 550;
+	margin: 37px 15px 230px 520px;
+	letter-spacing: 3px;
+}
+.inner-button .btn-primary-2:hover, .inner-button .btn-primary-2:focus{
+	background: #bea67c;
+	color: white;
+	border-color: transparent;
+}
+.furniture{
+	width: 100%;
+	padding: 150px 0px;
+}
+.furniture .title h3{
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 1.2em;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+	margin: 135px 0px 17px 0px;
+}
+.furniture .title p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+	color: #999;
+	text-align: inherit;
+	margin: 0px 0px 20px 211px;
+}
+.furniture .title a{
+	text-align: center;
+	margin: 0px 0px 0px 211px;
+	font-size: 19px;
+	color: black;
+}
+.decor{
+	width: 100%;
+	padding: 80px 0px;
+}
+.decor .title h3{
+	font-size: 35px;
+	font-weight: 600;
+	line-height: 1.2em;
+	letter-spacing: 3px;
+	color: black;
+	text-align: center;
+	margin: 115px 0px 17px 270px;
+}
+.decor .title p{
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.2em;
+	letter-spacing: 1px;
+	color: #999;
+	text-align: inherit;
+	margin: 0px 0px 20px 386px;
+}
+.decor .title a{
+	text-align: center;
+	margin: 0px 0px 0px 386px;
+	font-size: 19px;
+	color: black;
+}
+.quality{
+	width: 100%;
+	padding: 80px 0px;
+}
+.quality .title{
+	text-align: center;
+}
+.quality .title p{
+	text-align: center;
+	margin: 15px 0px 0px 0px;
+	color: #999;
+}
+.quality .col-lg-4 img{
+	text-align: center;
+	margin: 0px 0px 50px 92px;
+}
+.quality .col-lg-4 h6{
+	text-align: center;
+	margin: 0px 0px 0px 17px;
+	font-size: 18px;
+	font-weight: 550;
+}
+.review{
+	width: 100%;
+	padding: 100px 0px 0px 0px;
+	background: url("../images/reviewbg.png") center top no-repeat;
+	background-size: cover;
+}
+.review .title h1{
+	font-size: 70px;
+	font-weight: 600;
+	line-height: 1.1em;
+	letter-spacing: 2px;
+	color: #bea67c;
+	text-align: center;
+	margin: 150px 0px 50px 0px;
+}
+.review p{
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1.2em;
+	letter-spacing: 2px;
+	color: #999;
+	text-align: center;
+	margin: 1px 0px 0px 0px;
+
+}
+.review btn-primary-2{
+	padding: 11px 50px;
+	border-radius: 0px;
+	background: transparent;
+	color: white;
+	border-color: #999;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 550;
+	margin: 75px 15px 220px 520px;
+	letter-spacing: 3px;
+	text-align: center;
+}
+.about{
+	width: 100%;
+	padding: 100px 0px;
+}
+.about .col-lg-6 h3{
+	text-align: inherit;
+	margin: 150px 0px 0px 330px;
+	font-size: 30px;
+	letter-spacing: 2px;
+}
+.about .col-lg-6 p{
+	text-align: inherit;
+	margin: 14px 0px 14px 330px;
+}
+.about .col-lg-6 a{
+	text-align: inherit;
+	margin: 0px 0px 0px 330px;
+	font-size: 19px;
+	color: black;
+}
+.footer{
+	width: 100%;
+	background: #15141a;
+	padding: 0px 12px 0px;
+}
+.footer .title{
+	width: 100%;
+	padding: 0px 0px 30px 0px;
+}
+.footer p{
+	font-size: 15px;
+	font-weight: 500;
+	color: #444348;
+	margin: 32px 0px 0px 0px;
+	text-align: center;
+}
+.footer p a{
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #7d7d7d;
+ 	text-align: center;
+}
